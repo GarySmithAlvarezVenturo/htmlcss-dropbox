@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Togliere a fine lavoro */
-body{
-    background-color: #242424;
-}
-
 .menu,a,button{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -17,17 +12,13 @@ body{
     text-decoration: none;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
 nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 0, 0); /*capire il position poi levare*/
 }
 
 .menu{
@@ -63,3 +54,4 @@ button{
 button:hover{
     background: #39f;
 }
+
