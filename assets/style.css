@@ -43,12 +43,11 @@ body{
     color: white;
 }
 
-/* header */
-
 header{
     background-color: #b4d0e7;
 }
 
+/* NAV BAR */
 nav {
     position: fixed;
     top: 0;
@@ -91,6 +90,7 @@ nav .button {
     align-items: center;
 }
 
+/* JUMBO SECTION */
 header h1 {
     font-size: 5rem;
     margin-bottom: 1rem;
@@ -109,4 +109,55 @@ header .jumbo img{
     flex: 0 0 70%;
     min-width: 0;
     margin-bottom: -75px;
+}
+
+/* MAIN SECTION  */
+
+main .title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+main .title{
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+main .input{
+    margin-top: 20px;
+    gap: 1px;
+}
+
+main .fact2{
+    margin-left: 40px;
+}
+
+/* BOX */
+
+.all-box {
+    flex:0 0 calc(100% / 3);
+    padding: 1rem .5rem;
+    max-width: 300px;
+}
+
+main .icon{
+    border: solid 2px green;
+    display: flex;
+    justify-content: center;
+}
+
+main .box{
+    border: solid 2px red;
+}
+
+main .contets{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 33px;
+}
+
+main .contets h1{
+    font-size: 1.5rem;
 }
