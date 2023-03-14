@@ -38,9 +38,10 @@ body{
     color: white;
 }
 
-.btn-primary{
+.btn-blue{
     background-color: #0061ff;
     color: white;
+    text-decoration: none;
 }
 
 header{
@@ -145,6 +146,7 @@ main .icon{
     border: solid 2px green;
     display: flex;
     justify-content: center;
+    padding: 5px;
 }
 
 main .box{
@@ -160,4 +162,25 @@ main .contets{
 
 main .contets h1{
     font-size: 1.5rem;
+}
+
+main .contets span{
+    margin-bottom: 20px;
+}
+
+main .user{
+    margin-top: 50px;
+}
+
+main .spacetop,.shop {
+    margin-top: 15px;
+}
+
+main .contets h2 {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.check-blue{
+    color: #0061ff;
 }
