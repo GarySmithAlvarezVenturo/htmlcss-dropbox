@@ -136,21 +136,26 @@ main .fact2{
 
 /* BOX */
 
-.all-box {
-    flex:0 0 calc(100% / 3);
-    padding: 1rem .5rem;
-    max-width: 300px;
+main .all-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.box{
+   
 }
 
 main .icon{
-    border: solid 2px green;
+    border: solid 1px lightgrey;
     display: flex;
     justify-content: center;
     padding: 5px;
 }
 
 main .box{
-    border: solid 2px red;
+    border: solid 1px lightgrey;
+    max-width: 300px;
 }
 
 main .contets{
@@ -184,3 +189,19 @@ main .contets h2 {
 .check-blue{
     color: #0061ff;
 }
+
+/* horizontal Box */
+
+.container-horiz{
+    border: solid 1px lightgrey;
+    margin-top: 30px;
+}
+
+main .container-horiz .info{
+    margin-top: 50px;
+}
+
+.btn-horiz{
+    
+}
+
